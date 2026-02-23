@@ -122,50 +122,47 @@ header .wrapper {
 
 .hero h1 {
    
-    font: 100 6.25rem/100% Nunito, sans-serif;
+    font: 100 6.25rem/100% 'Nunito', sans-serif;
     margin: 0px 20px 0px 0px;
     color: #F2545B;
 
 }
 
+/* ===== Numéro 5c ===== */
+
+.athletes {
+
+    padding: 100px 0px;
+}
 
 /* ===== Numéro 5a ===== */
-/*
+
 .athletes h2 {
-    font-family: Nunito, sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 50px;
-    margin-left: 0;
-    margin-right: 0;
+    
+
+    font: bold 3.125rem 'Nunito', sans-serif;
+    margin: 0px 50px 0px 0px;
+    letter-spacing: .05rem;
 }
-*/
+
 
 /* ===== Numéro 5b ===== */
-/*
-.athletes p {
-    margin-right: 0;
-    margin-bottom: 50px;
-    margin-top: 0;
-    margin-left: 0;
-}
-*/
 
-/* ===== Numéro 5c ===== */
-/*
-.athletes {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 0;
-    padding-right: 0;
+.athletes p {
+
+    margin: 0px 50px 0px 0px;
 }
-*/
+
+
+
 
 
 /* ===== Numéro 5d ===== */
 .athletes-photos {
 
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
 }
 
 /* ===== Numéro 5e ===== */
