@@ -36,6 +36,13 @@ body {
    Modules
 ------------------------------------------------------------------------------*/
 
+/* ===== Numéro 3f ===== */
+
+header {
+    
+    padding: 20px 0px;
+}
+
 /* ===== Numéro 3a ===== */
 header .wrapper {
     display: flex;
@@ -74,26 +81,20 @@ header .wrapper {
     color: black;
     text-transform: uppercase;
     text-decoration: none;
+    border: 2px solid transparent;
 }
 
 
 /* ===== Numéro 3e ===== */
 
 .menu a:hover {
-    
+
     border: 2px solid black;
 }
 
 
-/* ===== Numéro 3f ===== */
-/*
-header {
-    padding-top: 20px;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 20px;
-}
-*/
+
+
 
 /* ===== Numéro 4a ===== */
 /*
