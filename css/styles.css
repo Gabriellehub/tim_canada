@@ -55,7 +55,7 @@ header .wrapper {
     display: flex;
     align-items: center;
     gap: 20px;
-    font: 700 2.5rem 'nunito', sans-serif;
+    font: 700 2.5rem nunito, sans-serif;
     text-decoration: none;
     color: #444;
 }
@@ -97,39 +97,37 @@ header .wrapper {
 
 
 /* ===== Numéro 4a ===== */
-/*
+
 .hero {
-    background-image: url('../images/hero.jpg');
-    background-position: center right;
-    background-repeat: no-repeat;
+
+    background: url('../images/hero.jpg') no-repeat center;
+    padding: 75px 50px;
 }
-*/
+
 
 /* ===== Numéro 4b ===== */
 .hero .wrapper {
-
+    display: flex;
+    max-height: 650px;
+    flex-direction: column;
 }
 
 /* ===== Numéro 4c ===== */
 .hero .contenu {
-
+    max-width: 50%;
+    color: white;
 }
 
 /* ===== Numéro 4d ===== */
-/*
-.hero h1 {
-    font-weight: 100;
-    font-size: 100px;
-    line-height: 100%;
 
-    font-family: Nunito, sans-serif;
-    margin-top: 0;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
+.hero h1 {
+   
+    font: 100 6.25rem/100% Nunito, sans-serif;
+    margin: 0px 20px 0px 0px;
     color: #F2545B;
+
 }
-*/
+
 
 /* ===== Numéro 5a ===== */
 /*
