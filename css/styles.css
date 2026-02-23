@@ -151,6 +151,7 @@ header .wrapper {
 .athletes p {
 
     margin: 0px 50px 0px 0px;
+    padding: 50px 0px;
 }
 
 
@@ -162,17 +163,19 @@ header .wrapper {
 
     display: grid;
     gap: 30px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
 }
 
 /* ===== Numéro 5e ===== */
 .athletes-photos img {
-
+ max-width: 100%;
 }
 
 /* ===== Numéro 5f ===== */
 .athlete1 {
-
+    grid-column: span 2;
+    grid-row: span 2;
+    
 }
 
 
